@@ -12,17 +12,127 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-a {
-    text-decoration: none;
+   input::placeholder{
+    color: rgb(255, 255, 255)!important;
+   }
+    text{
+        color: black;
+    }
+    .card {
+        height: 257px;
+        justify-content: center;
+    }
+
+    
+
+    a {
+        text-decoration: none;
+    }
+
+    .div1 {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+        border-radius: 20px;
+        border: 1px;
+        border-style: solid;
+        width: 100%;
+        height: 300px;
+        margin: 10px;
+        text-align: center;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+
+    .dashboard {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .menu {
+        background-color: rgb(136, 137, 138);
+
+    }
+
+    .topbar {
+        background-color: rgb(136, 137, 138);
+    }
+
+    .side {
+        background-color: rgb(255, 255, 255);
+        color: rgb(124, 1, 1);
+        color: rgb(0, 0, 0);
+
+    }
+    .side:hover {
+        color: rgb(124, 1, 1);
+
+    }
+
+    #subtxt {
+        color: rgb(0, 0, 0);
+    }
+    
+body {
+    background-color: none!important;
 }
+
+    body .video {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 200%;
+        overflow: hidden;
+        z-index: -1;
+        /* background-color: rgb(246, 246, 246); */
+    }
+
+    .card.weather {
+        background-color: rgb(255, 255, 255);
+        font-weight: bold;
+        border-radius: 20px;
+        border: 1px;
+        border-style: solid;
+    }
+
+    .card {
+        background-color: rgb(255, 255, 255);
+        font-weight: bold;
+        border-radius: 20px;
+        border: 1px;
+        border-style: solid;
+    }
+
+    a.menu-item {
+        text-decoration-color: rgb(255, 255, 255);
+    }
+
+    .menu-item {
+        color: rgb(0, 0, 0);
+        font-weight: 150;
+    }
+    .menu-item:hover {
+        color: rgb(124, 1, 1);
+        font-weight: 150;
+    }
+
+    a .div1:hover {
+
+        color: rgb(124, 1, 1)
+
+    }
+
+    a #subtxt:hover {
+        color: rgb(124, 1, 1)
+    }
 </style>
 
 <body>
     <main class="container">
         <div class="menu">
             <div class="avatar">
-                <img class="thumb" src="/vino.jpg" width="60" />
-                <span class="name">Vinoth</span>
+                <img class="thumb" src="C:\Users\Admin\Documents\Hafeezath Thajudheen\mainpage\Dss.JFIF" width="60" />
+                <span class="name" style="color:rgb(124, 1, 1);">DSS Steel</span>
             </div>
             <nav class="primary">
                 <a href="#" class="menu-item active">
@@ -54,10 +164,10 @@ a {
             <span class="expander iconoir-arrow-right"></span>
         </div>
         <div class="topbar">
-            <h1 class="current">Dashboard</h1>
+            <h1 class="current" style="color:rgb(124, 1, 1);">Dashboard</h1>
             <span class="search">
                 <label><span class="iconoir-search"></span></label>
-                <input class="bar" type="text" placeholder="Search..." />
+                <input class="bar" type="text" placeholder="Search..."/>
             </span>
             <!-- <nav>
                 <a href="#" class="menu-item">Orders</a>
@@ -68,7 +178,7 @@ a {
         <div class="dashboard">
             <div class="cardcolumn">
                 <a href="invoice.html">
-                    <div class="card">
+                    <div class="div1">
                         <header>
                             <!-- <a class="title" href="#"></a> -->
                             <span class="iconoir-more-vert"></span>
@@ -78,7 +188,9 @@ a {
                         <h1>Open Invoices</h1>
 
                         <center>
-                            <h1>145000</h1>
+                            <div id="subtxt">
+                                <h1>145000</h1>
+                            </div>
                         </center>
 
                         <div class="meta">
@@ -89,16 +201,18 @@ a {
                     </div>
                 </a>
 
-                <div class="card">
+                <div class="div1">
                     <header>
                         <a class="title" href="#"></a>
                         <span class="iconoir-more-vert"></span>
                     </header>
                     <div class="content"></div>
                     <h1>Post dated Cheques Due next week </h1>
-                    <center>
-                        <h1>1000</h1>
-                    </center>
+                    <div id="subtxt">
+                        <center>
+                            <h1>10000</h1>
+                        </center>
+                    </div>
                     <div class="meta">
                         <span class="iconoir-pin"></span>
                         <span class="iconoir-eye-off"></span>
@@ -108,7 +222,7 @@ a {
             </div>
             <div class="cardcolumn">
                 <a href="pdc.html">
-                    <div class="card">
+                    <div class="div1">
                         <header>
                             <!-- <a class="title" href="pdc.html"> -->
                             <span class="iconoir-more-vert"></span>
@@ -117,9 +231,11 @@ a {
                         <center>
                             <h1>Post Dated Cheques</h1>
                         </center>
-                        <center>
-                            <h1>34500</h1>
-                        </center>
+                        <div id="subtxt">
+                            <center>
+                                <h1>34500</h1>
+                            </center>
+                        </div>
                         <div class="meta">
                             <span class="iconoir-pin"></span>
                             <span class="iconoir-eye-off"></span>
@@ -128,7 +244,7 @@ a {
                     </div>
                 </a>
                 <a href="orders.html">
-                    <div class="card">
+                    <div class="div1">
                         <header>
                             <!-- <a class="title" href="#"></a> -->
                             <span class="iconoir-more-vert"></span>
@@ -137,19 +253,22 @@ a {
                         <center>
                             <h1>Orders to Receive</h1>
                         </center>
-                        <center>
-                            <h1>25 MT</h1>
-                            <div class="meta">
-                                <span class="iconoir-pin"></span>
-                                <span class="iconoir-eye-off"></span>
-                                <span class="iconoir-share-ios"></span>
-                            </div>
+                        <div id="subtxt">
+                            <center>
+                                <h1>25 MT</h1>
+                            </center>
+                        </div>
+                        <div class="meta">
+                            <span class="iconoir-pin"></span>
+                            <span class="iconoir-eye-off"></span>
+                            <span class="iconoir-share-ios"></span>
+                        </div>
                     </div>
                 </a>
             </div>
-            
+
             <div class="cardcolumn">
-                <div class="card">
+                <div class="div1">
                     <header>
                         <a class="title" href="#"></a>
 
@@ -157,16 +276,18 @@ a {
                     </header>
                     <div class="content"></div>
                     <h1>Available Credit limit</h1>
-                    <center>
-                        <h1>12000</h1>
-                    </center>
+                    <div id="subtxt">
+                        <center>
+                            <h1>12000</h1>
+                        </center>
+                    </div>
                     <div class="meta">
                         <span class="iconoir-pin"></span>
                         <span class="iconoir-eye-off"></span>
                         <span class="iconoir-share-ios"></span>
                     </div>
                 </div>
-                <div class="card">
+                <div class="div1">
                     <header>
                         <a class="title" href="#"></a>
                         <span class="iconoir-more-vert"></span>
@@ -175,31 +296,21 @@ a {
                     <center>
                         <h1>Material Out of Delivery</h1>
                     </center>
-                    <center>
-                        <h1>15 MT</h1>
-                        <div class="meta">
-                            <span class="iconoir-pin"></span>
-                            <span class="iconoir-eye-off"></span>
-                            <span class="iconoir-share-ios"></span>
-                        </div>
+                    <div id="subtxt">
+                        <center>
+                            <h1>15 MT</h1>
+                        </center>
+                    </div>
+                    <div class="meta">
+                        
+                        <span class="iconoir-pin"></span>
+                        <span class="iconoir-eye-off"></span>
+                        <span class="iconoir-share-ios"></span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="side">
-            <div class="card weather">
-                <!-- <img class="condition" src="https://res.cloudinary.com/dtqkhr8o9/image/upload/v1665659679/forecast_vb4vl0.png" /> -->
-                <div class="content"></div>
-                <div class="meta">
-                    <span class="location">
-                        <!-- <span class="iconoir-pin-alt"></span> Athens, GR
-                    </span> -->
-                        <div class="datetime">
-                            <span class="iconoir-calendar"></span>
-                            <span class="date">21 July, 2022</span>
-                            <span class="time">5:01</span>
-                        </div>
-                </div>
-            </div>
             <div class="card">
                 <header>Upcoming Deliveries</header>
                 <div class="content">
@@ -211,11 +322,37 @@ a {
                     </ul>
                 </div>
             </div>
+            <div class="card weather">
+            
+                <!-- <img class="condition" src="https://res.cloudinary.com/dtqkhr8o9/image/upload/v1665659679/forecast_vb4vl0.png" /> -->
+                <div class="content" style="font-size: 20px;font-weight: 600;">
+                   Contact:<br>
+                    DSS Steel <br>
+                    +971 4 3332637<br>
+                    info@dsssteel.com<br>
+                    
+                </div>
+                <div class="meta">
+                    
+                    <span class="location">
+                        
+                        <!-- <span class="iconoir-pin-alt"></span> Athens, GR
+                    </span> -->
+                        <div class="datetime">
+                            
+                            <span class="iconoir-calendar"></span>
+                            <span class="date">21 July, 2022</span>
+                            <span class="time">5:01</span>
+                        </div>
+                </div>
+            </div>
+
         </div>
     </main>
     <div class="video">
-        <video src="https://res.cloudinary.com/dtqkhr8o9/video/upload/v1665644022/pexels_uezvrq.mp4" muted playsinline
-            autoplay loop></video>
+        <img src="C:\Users\Admin\Documents\Hafeezath Thajudheen\mainpage\bg-body.jpg">
+
+        </img>
     </div>
 </body>
 <!-- javascript -->
