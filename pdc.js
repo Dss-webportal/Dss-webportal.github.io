@@ -6,7 +6,7 @@ var da =
       "date1": "30-11-2022",
       "name": "First Abu Dhabi Bank",
       "remarks": "July Invs",
-      "amount": "301,308.53" 
+      "amount": "Dhs 301,308.53" 
     },
     { "number": "10107271", 
       "date": "21-09-2022", 
@@ -14,7 +14,7 @@ var da =
       "date1": "01-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "Aug Invs - except last inv",
-      "amount": "277,774.35" 
+      "amount": "Dhs 277,774.35" 
     },
     { "number": "10107491", 
       "date": "20-10-2022", 
@@ -22,7 +22,7 @@ var da =
       "date1": "31-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "One Aug & Sept Invs",
-      "amount": "115,390.8" 
+      "amount": "Dhs 115,390.8" 
     },
     { "number": "101787046", 
       "date": "18-08-2022", 
@@ -30,7 +30,7 @@ var da =
       "date1": "30-11-2022",
       "name": "First Abu Dhabi Bank",
       "remarks": "January Invs",
-      "amount": "301,58.53" 
+      "amount": "Dhs 301,58.53" 
     },
     { "number": "101036271", 
       "date": "21-09-2022", 
@@ -38,7 +38,7 @@ var da =
       "date1": "01-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "Nov Invs - except last inv",
-      "amount": "277,774.35" 
+      "amount": "Dhs 277,774.35" 
     },
     { "number": "10108491", 
       "date": "20-10-2022", 
@@ -46,7 +46,7 @@ var da =
       "date1": "31-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "One Apr & Sept Invs",
-      "amount": "115,390.8" 
+      "amount": "Dhs 115,390.8" 
     },
     { "number": "13107046", 
       "date": "18-08-2022", 
@@ -54,7 +54,7 @@ var da =
       "date1": "30-11-2022",
       "name": "First Abu Dhabi Bank",
       "remarks": "June Invs",
-      "amount": "371,308.53" 
+      "amount": "Dhs 371,308.53" 
     },
     { "number": "10198721", 
       "date": "21-09-2022", 
@@ -62,7 +62,7 @@ var da =
       "date1": "01-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "Aug Invs - except last inv",
-      "amount": "277,774.35" 
+      "amount": "Dhs 277,774.35" 
     },
     { "number": "10109491", 
       "date": "20-10-2022", 
@@ -70,7 +70,7 @@ var da =
       "date1": "31-01-2023",
       "name": "First Abu Dhabi Bank",
       "remarks": "One May & Sept Invs",
-      "amount": "115,390.8" 
+      "amount": "Dhs 115,390.8" 
     },
     { "number": "13107974", 
       "date": "18-08-2022", 
@@ -78,6 +78,6 @@ var da =
       "date1": "30-11-2022",
       "name": "First Abu Dhabi Bank",
       "remarks": "June Invs",
-      "amount": "371,308.53" 
+      "amount": "Dhs 371,308.53" 
     } 
 ]`;
